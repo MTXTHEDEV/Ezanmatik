@@ -16,4 +16,19 @@ Hiç bilmeyenler için nasıl çalıştırılır:
 2- Kurarken akttaki 2 tiki işaretleyip install now'a tıklayın. https://prnt.sc/dY0yHcUvvV8U  
 3- Disable lengh limit butonuna da tıklayıp kurulumu bitirin. https://prnt.sc/xDc7QY90oEFH  
 4- Komut sistemini açıp "pip install requests pyautogui" yazıp işlem bitene kadar bekleyin.  
-5- İşlem bittikten sonra Ezanmatik.py dosyasını çalıştırın.  
+5- İşlem bittikten sonra Ezanmatik.py dosyasını çalıştırın.
+
+
+  -------------------------------------------------------------------------------------------
+
+  V2-  
+    
+ Aladhan Api yerine CollectAPI kullanır. Kullanmak için CollectAPI'ye üye olmanız gerekir.  
+ https://collectapi.com/tr/auth
+
+ Vakitleri sürekli çekmek yerine 1 kez çekip kaydeder ve buna göre kalan vakitleri hesaplar.
+  
+ Kullanabilmek için 7. satıra kendi şehrinizi 115. satıra kendi api keyinizi girmelisiniz.
+ 
+ 
+ 
