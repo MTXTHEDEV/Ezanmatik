@@ -9,3 +9,12 @@ Aladhan api kullanarak ezan vakitleri sürekli güncellenir.
 Ezan vaktinden 1 dakikadan az kaldığında her saniye döngüye girer ve zamanlayıcı sona erdiğinde müzik 5 dakika duraklatılır.
 
 Örnek çıktı:   https://prnt.sc/4L80DNW3h3vg
+
+Hiç bilmeyenler için nasıl çalıştırılır:
+1- Python indirin. https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe
+2- Kurarken akttaki 2 tiki işaretleyip install now'a tıklayın. https://prnt.sc/dY0yHcUvvV8U
+3- Disable lengh limit butonuna da tıklayıp kurulumu bitirin. https://prnt.sc/xDc7QY90oEFH
+4- Komut sistemini açıp "pip install requests pyautogui" yazıp işlem bitene kadar bekleyin.
+5- İşlem bittikten sonra Ezanmatik.py dosyasını çalıştırın.
+
+
