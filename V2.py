@@ -15,7 +15,6 @@ def get_azan_time(city="Ankara", api_key="your_token"):
     if response.status_code == 200:
         data = response.json()
         if data['success']:
-            # result listesini işliyoruz
             result = data['result']
             return {
                 "fajr": next((item['saat'] for item in result if item['vakit'] == "İmsak"), None),
@@ -61,7 +60,7 @@ def check_and_control_music(api_key):
     if azan_times is None:
         return
 
-    already_stopped_for = None  # Daha önce hangi vakit için durdurma yapıldığını takip eder
+    already_stopped_for = None 
 
     while True:
         current_time = datetime.now()
@@ -70,11 +69,8 @@ def check_and_control_music(api_key):
                 year=current_time.year, month=current_time.month, day=current_time.day
             )
 
-            # Eğer ezan vakti üzerinden 10 dakikadan fazla geçmişse o vakti atla
             if current_time > azan_datetime + timedelta(minutes=10):
                 continue
-
-            # Ezan vakti geldiyse ve daha önce durdurma yapılmadıysa
             if current_time >= azan_datetime and already_stopped_for != azan:
                 print(f"Ezan vakti geldi ({azan_names[azan]} Ezanı: {azan_time}). Müzik durduruluyor.")
                 stop_music()
@@ -88,7 +84,6 @@ def check_and_control_music(api_key):
                 start_music()
                 break
 
-            # Ezan vakti gelmediyse kalan süreyi hesapla
             elif current_time < azan_datetime:
                 time_diff = azan_datetime - current_time
                 hours, remainder = divmod(time_diff.seconds, 3600)
@@ -104,7 +99,6 @@ def check_and_control_music(api_key):
                     time.sleep(60)  
                 break
 
-        # Günün tüm ezan vakitleri geçtiğinde döngüyü durdur
         if current_time > datetime.strptime(azan_times["isha"], "%H:%M").replace(
                 year=current_time.year, month=current_time.month, day=current_time.day):
             print("Günün tüm ezanları geçti. Program sona eriyor.")
