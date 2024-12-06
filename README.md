@@ -29,6 +29,15 @@ Hiç bilmeyenler için nasıl çalıştırılır:
  Vakitleri sürekli çekmek yerine 1 kez çekip kaydeder ve buna göre kalan vakitleri hesaplar.
   
  Kullanabilmek için 7. satıra kendi şehrinizi 115. satıra kendi api keyinizi girmelisiniz.
+
+ ---------------------------------------------------------------------------------------------
+ V4 (GUI)
+  
+ Terminal üzerinden çalışmaz, V2 gibi CollectAPI kullanır.
+ Görünümü: https://prnt.sc/9Ngs4DwlY1Qw
+ Kullanabilmek için 170 ve 171. satırdaki city ve api_key değerlerini girmelisiniz.
+ Kullanılan kütüphaneleri indirmek için kod: pip install requests pyautogui pystray pillow plyer
+
  
  
  
