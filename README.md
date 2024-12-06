@@ -36,6 +36,8 @@ Hiç bilmeyenler için nasıl çalıştırılır:
  Terminal üzerinden çalışmaz, V2 gibi CollectAPI kullanır.  
    
  Görünümü: https://prnt.sc/9Ngs4DwlY1Qw  
+
+ Müziği ezan vaktinden 20 saniye önce durdurur ve devam ettirmek için 6 dakika bekler.  
    
  Kullanabilmek için 170 ve 171. satırdaki city ve api_key değerlerini girmelisiniz.  
    
