@@ -33,9 +33,12 @@ Hiç bilmeyenler için nasıl çalıştırılır:
  ---------------------------------------------------------------------------------------------
  V4 (GUI)
   
- Terminal üzerinden çalışmaz, V2 gibi CollectAPI kullanır.
- Görünümü: https://prnt.sc/9Ngs4DwlY1Qw
- Kullanabilmek için 170 ve 171. satırdaki city ve api_key değerlerini girmelisiniz.
+ Terminal üzerinden çalışmaz, V2 gibi CollectAPI kullanır.  
+   
+ Görünümü: https://prnt.sc/9Ngs4DwlY1Qw  
+   
+ Kullanabilmek için 170 ve 171. satırdaki city ve api_key değerlerini girmelisiniz.  
+   
  Kullanılan kütüphaneleri indirmek için kod: pip install requests pyautogui pystray pillow plyer
 
  
