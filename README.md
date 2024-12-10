@@ -39,7 +39,7 @@ Hiç bilmeyenler için nasıl çalıştırılır:
 
  Müziği ezan vaktinden 20 saniye önce durdurur ve devam ettirmek için 6 dakika bekler.  
    
- Kullanabilmek için 170 ve 171. satırdaki city ve api_key değerlerini girmelisiniz.  
+ Kullanabilmek için 216 ve 217. satırdaki city ve api_key değerlerini girmelisiniz.  
    
  Kullanılan kütüphaneleri indirmek için kod: pip install requests pyautogui pystray pillow plyer
 
